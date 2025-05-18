@@ -6,7 +6,7 @@ import path from 'path';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
-const sqlFilePath = path.join(__dirname, '..', 'dump.sql');
+const sqlFilePath = path.join(__dirname, '..', 'data.sql');
 
 app.use(cors());
 
